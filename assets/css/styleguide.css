@@ -1,0 +1,161 @@
+/* Cores */
+.primaria-1 {
+	background: #27294C;
+}
+.primaria-2 {
+	background: #E44E86;
+}
+.secundaria-1 {
+	background: #FFD2F8;
+}
+.secundaria-2 {
+	background: #68A5A8;
+}
+
+/* Tipografia */
+.titulo-1 {
+	font-family: Cantata One;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 4.5rem;
+	text-align: center;
+	color: #27294c
+}
+.titulo-2 {
+	font-family: Cantata One;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 5rem;
+	font-size: 3rem;
+	text-align: center;
+	color: #27294c;
+}
+.corpo-1 p {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: .9rem;
+	text-align: center;
+	background: #27294C;
+	color: #FFD2F8;
+}
+.corpo-2 p {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 24px;
+	letter-spacing: 0.05em;
+	color: #27294C;
+}
+.corpo-3 p {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: .8rem;
+	color: #68A5A8;
+}
+
+/* Botões e Links */
+.btn-primario a {
+	font-family: Montserrat;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 1rem;
+	letter-spacing: .2rem;
+	display: inline-block;
+	background: transparent;
+	color: #E44E86;
+	text-align: center;
+	padding: 10px 30px;
+	border: 3px solid #E44E86;
+	box-sizing: border-box;
+}
+.btn-primario a:hover {
+	background: #E44E86;
+	color: #F4f4f4;
+	cursor: pointer;
+}
+.btn-secundario a {
+	font-family: Montserrat;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 1rem;
+	letter-spacing: .2rem;
+	display: inline-block;
+	background: #27294C;
+	color: #F4f4f4;
+	text-align: center;
+	border: 3px solid transparent;
+	padding: 10px 30px;
+}
+.btn-secundario a:hover {
+	background: transparent;
+	border: 3px solid #27294c;
+	color: #27294C;
+}
+.link a {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 1rem;
+	letter-spacing: 0.05em;
+}
+.link a:hover {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 1rem;
+	letter-spacing: 0.05em;
+	color: #AF1C53;
+}
+/* Formulário */
+label {
+	display: block;
+	font-family: Montserrat;
+	margin-bottom: ;
+	color: #27294c;
+}
+input, textarea {
+	font-family: ;
+	font-size: ;
+	padding: ;
+	background: ;
+	border: ;
+	margin-bottom: ;
+	width: ;
+	box-sizing: border-box;
+}
+textarea {
+	min-height: ;
+}
+input:focus, input:hover, textarea:focus, textarea:hover {
+	outline: ;
+	border-color: ;
+}
+
+button:hover {
+	background: #d4d4d4;
+	color: black;
+}
+
+button {
+	font-family: Cantata One;
+	font-size: 1rem;
+	display: inline-block;
+	background:	#fff;
+	color: #27294c;
+	text-align: center;
+	padding: 5px 40px;
+	border: ;
+	cursor: pointer;
+}
